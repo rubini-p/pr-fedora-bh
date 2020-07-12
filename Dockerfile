@@ -1,2 +1,2 @@
 FROM fedora
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["tail", "tail -f /dev/null"]

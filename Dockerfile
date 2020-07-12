@@ -1,2 +1,2 @@
-FROM fedora:latest
+FROM fedora
 ENTRYPOINT ["/bin/bash"]

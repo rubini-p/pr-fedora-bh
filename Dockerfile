@@ -1,2 +1,2 @@
 FROM fedora
-ENTRYPOINT ["tail", "tail -f /dev/null"]
+ENTRYPOINT ["tail","-f","/dev/null"]
